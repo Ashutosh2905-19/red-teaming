@@ -1,8 +1,27 @@
+# --- Core / Config ---
 python-dotenv==1.0.1
 pydantic==2.7.4
+
+# --- Web / Networking ---
 requests==2.32.3
-tqdm==4.66.4
+
+# --- Data handling ---
 pandas==2.2.2
+tqdm==4.66.4
+
+# --- Dashboard / Visualization ---
 streamlit==1.37.1
 matplotlib==3.9.1
+
+# --- Vector DB (RAG / Doc-QA) ---
 chromadb==0.5.5
+
+# --- Document parsing (Doc-QA uploads) ---
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# --- LLM Judge ---
+openai==1.40.0
+
+# --- PDF Report Generation ---
+reportlab==4.2.2
