@@ -1,4 +1,46 @@
+# --- Environment & Secrets ---
 .env
-.venv
+.env.*
+!.env.example
+
+# --- Byte-compiled / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
 app/__pycache__/
-*.pyc
+**/__pycache__/
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Generated data / runtime artifacts ---
+outputs/*.sqlite3
+outputs/*.pdf
+outputs/user_docs/
+outputs/vector_db/
+outputs/_tmp_report_assets/
+*.chroma/
+chroma_db/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+
+# --- Logs ---
+*.log
+
+# --- Streamlit local config/secrets ---
+.streamlit/secrets.toml
