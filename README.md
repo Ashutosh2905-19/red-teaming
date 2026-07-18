@@ -1,4 +1,4 @@
-# 🛡️ Finance LLM Red-Teaming Platform
+# 🛡️ LLM Red-Teaming Platform
 
 An end-to-end **automated red-teaming and safety evaluation framework** for LLMs deployed in **financial services** use cases — retail banking, lending, wealth management, trading, insurance, tax, AML/KYC, crypto, and more.
 
